@@ -2,13 +2,17 @@ import React from 'react'
 
 import NoParameters from './NoParameters/NoParameters'
 import OneParameterString from './OneParameter/OneParameterString'
+import OneParameterNumber from './OneParameter/OneParameterNumber'
+import OneParameterArray from './OneParameter/OneParameterArray'
 
 export default class FunctionMain extends React.Component {
     render() {
         return (
             <div>
                 <NoParameters />
-                <OneParameterString />
+                {/* <OneParameterString />
+                <OneParameterNumber />
+                <OneParameterArray /> */}
             </div>
         )
     }

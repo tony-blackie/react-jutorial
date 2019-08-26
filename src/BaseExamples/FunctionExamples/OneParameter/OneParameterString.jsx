@@ -22,8 +22,8 @@ export default class OneParameterString extends React.Component {
 
         return (
             <div>
-                <span>{stringWithNoArticle}</span>
-                <span>{secondStringWithNoArticle}</span>
+                <div>{stringWithNoArticle}</div>
+                <div>{secondStringWithNoArticle}</div>
             </div>
         )
     }
