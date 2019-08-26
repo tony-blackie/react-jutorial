@@ -1,8 +1,7 @@
 import React from 'react'
-import logo from './logo.svg'
-import Button from './Button/Button'
 import './App.css'
 
+import FunctionMain from './BaseExamples/FunctionExamples/FunctionMain'
 import ReactMain from './ReactExamples/ReactMain'
 
 class App extends React.Component {
@@ -13,7 +12,8 @@ class App extends React.Component {
     render() {
         return (
             <div className="App">
-                <ReactMain />
+                {/* <ReactMain /> */}
+                <FunctionMain />
             </div>
         )
     }

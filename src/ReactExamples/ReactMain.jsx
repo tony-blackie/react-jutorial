@@ -1,8 +1,8 @@
 import React from 'react'
 
 import NullableButton from './1_NullableButton/NullableButton'
-import TernaryNullableButton from './2_TernaryNullableButton'
-import BlueButtonByDefault from './3_DefaultValues'
+import TernaryNullableButton from './2_TernaryNullableButton/TernaryNullableButton'
+import BlueButtonByDefault from './3_DefaultValues/BlueButtonByDefault'
 
 export default class ReactMain extends React.Component {
     render() {
