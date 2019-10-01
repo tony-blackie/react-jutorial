@@ -12,8 +12,8 @@ class App extends React.Component {
     render() {
         return (
             <div className="App">
-                {/* <ReactMain /> */}
-                <FunctionMain />
+                <ReactMain />
+                {/* <FunctionMain /> */}
             </div>
         )
     }

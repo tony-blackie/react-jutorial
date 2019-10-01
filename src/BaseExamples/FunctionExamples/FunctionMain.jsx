@@ -10,11 +10,11 @@ export default class FunctionMain extends React.Component {
     render() {
         return (
             <div>
-                <NoParameters />
-                {/* <OneParameterString />
-                <OneParameterNumber />
-                <OneParameterArray />
-                <OneParameterObject /> */}
+                {/* <NoParameters /> */}
+                {/* <OneParameterString /> */}
+                {/* <OneParameterNumber /> */}
+                {/* <OneParameterArray /> */}
+                <OneParameterObject />
             </div>
         )
     }

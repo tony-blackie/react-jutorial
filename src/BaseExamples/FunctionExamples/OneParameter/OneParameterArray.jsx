@@ -1,7 +1,12 @@
 import React from 'react'
 
 function multiplyByFive(paramName) {
-    return paramName.map(item => item * 5)
+    return paramName.map(
+        function(item) {
+            return item * 5
+        }
+        // item => item * 5
+    )
 }
 
 export default class OneParameterArray extends React.Component {
