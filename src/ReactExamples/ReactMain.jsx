@@ -4,6 +4,7 @@ import NullableButton from './1_NullableButton/NullableButton'
 import TernaryNullableButton from './2_TernaryNullableButton/TernaryNullableButton'
 import BlueButtonByDefault from './3_DefaultValues/BlueButtonByDefault'
 import ColorButton from './4_ColorButton/ColorButton'
+import InteractiveMenu from './5_InteractiveMenu/InteractiveMenu'
 
 export default class ReactMain extends React.Component {
     render() {
@@ -35,7 +36,8 @@ export default class ReactMain extends React.Component {
             //         <BlueButtonByDefault />
             //     </div>
             // </div>
-            <ColorButton />
+            // <ColorButton />
+            <InteractiveMenu />
         )
     }
 }
